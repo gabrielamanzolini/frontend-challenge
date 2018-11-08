@@ -35,6 +35,6 @@ Desktop:
 * Você esta livre para usar qualquer framework, JS ou CSS. (fácil não?).
 * HTML o mais semântico possível.
 * Branches com readme e instruções de implantação serão bem vindos.
-* Pré-processadores CSS como Stylus ou LESS também.
+* Pré-processadores CSS como Stylus, SASS ou LESS também.
 * Mantenha-se fiel ao layout. Pixel-perfect é bem vindo ;)
 * Consumir a API JSON para popular a galeria exibindo: foto; nome; tags e urlClient para o link!
