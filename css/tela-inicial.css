@@ -1,0 +1,121 @@
+li {
+    list-style-type: none;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.side-menu {
+    background-color: #242b2e;
+    color: #fff;
+    height: 100%;
+    padding: 0px;
+    width: 50%;
+    position: fixed;
+}
+.footer-menu {
+    display: block;
+    text-align: right;
+    padding-right: 5%;
+    font-size: 13px;
+}
+.footer-menu p {
+    float: right;
+}
+.social {
+    display: inline-block;
+    text-align: right;
+}
+.social li {
+    display: inline-block;
+}
+.menu {
+    text-align: right;
+    background-color: #31393d;
+}
+.col-md-3.side-menu .filter {
+    text-align: right;
+    padding-right: 5%;
+}
+.kappe-logo {
+    background-color: #fff;
+    width: 100%;
+}
+li.footer-opt {
+    padding-top: 2%;
+}
+li.footer-opt a {
+    font-weight: normal!important;
+}
+.kappe-logo img {
+    display: block;
+    padding: 10% 0% 10% 30%;
+}
+p.filter {
+    text-align: right;
+    padding-right: 5%;
+    color: #1ab5b3;
+}
+li.main-menu {
+    font-size: 18px;
+    padding: 5%;
+    width: 100%;
+    border-bottom: 1px solid #293034;
+}
+.upc {
+   text-transform: uppercase;
+}
+p.copyright {
+    font-size: 12px;
+}
+.social li {
+    padding: 1px;
+}
+.menu ul {
+    width: 100%;
+    padding: 0;
+}
+.footer-menu ul a {
+    font-weight: bold;
+}
+.menu li:hover {
+    background-color: #27b2b0;
+}
+.info-btn {
+    float: right;
+}
+.info-btn .btn {
+    background-color: #28b4b2;
+    float: right;
+    border-radius: 0;
+    width: 60px;
+    height: 60px;
+}
+.info-btn:hover .infos {
+    display:block!important;
+    float: right;
+    background-color: #333333;
+    color: white;
+    position: relative;
+    margin-top: 0%;
+    width: 100%;
+}
+.info-btn .infos p {
+    text-align: left;
+    font-size: 12px;
+}
+.info-btn .btn img {
+    width: 40px;
+    height: 40px;
+}
+.infos {
+    display: none;
+}
+.info-btn .infos img {
+    margin-right: 5%;
+    margin-left: 5%;
+}
