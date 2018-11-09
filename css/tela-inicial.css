@@ -16,6 +16,7 @@ a:hover {
     padding: 0px;
     width: 50%;
     position: fixed;
+    z-index: 1;
 }
 .footer-menu {
     display: block;
@@ -27,8 +28,8 @@ a:hover {
     float: right;
 }
 .social {
-    display: inline-block;
     text-align: right;
+    padding-right: 1%;
 }
 .social li {
     display: inline-block;
@@ -86,7 +87,9 @@ p.copyright {
     background-color: #27b2b0;
 }
 .info-btn {
-    float: right;
+    position: absolute;
+    right: 0%;
+    top: 0%;
 }
 .info-btn .btn {
     background-color: #28b4b2;
@@ -118,4 +121,38 @@ p.copyright {
 .info-btn .infos img {
     margin-right: 5%;
     margin-left: 5%;
+}
+.galeria {
+    width: 100%;
+}
+.galeria .row div {
+    position: relative;
+    width: 25%;
+}
+.galeria .row {
+    display: inline-flex;
+    margin-left: 16%;
+}
+.galeria .row img {
+    width: 100%;
+}
+.infos-img {
+    position: absolute;
+    top: 10%;
+    color: white;
+    text-align: center;
+    display: none;
+}
+.infos-img a img {
+    width: 25% !important;
+}
+.gallery-item:hover .infos-img {
+    display: block;
+    background-color: #2db8b7;
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 22%;
+    top: 0%;
 }
